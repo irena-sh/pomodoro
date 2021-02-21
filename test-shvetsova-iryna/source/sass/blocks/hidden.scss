@@ -1,0 +1,5 @@
+.hidden {
+  @media (min-width: $phones) and (max-width: $tablets-max) {
+    display: none;
+  }
+}

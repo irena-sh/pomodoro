@@ -1,0 +1,26 @@
+.description {
+  margin-right: 20px;
+  margin-left: 20px;
+
+  @media (min-width: $desktops) {
+    position: relative;
+    top: 400px;
+    left: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    margin-left: 60px;
+  }
+}
+
+.description__text {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: start;
+
+  @media (min-width: $desktops) {
+    width: 702px;
+    padding-bottom: 29px;
+  }
+}

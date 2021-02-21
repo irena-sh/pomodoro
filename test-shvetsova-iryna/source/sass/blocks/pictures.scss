@@ -1,0 +1,37 @@
+.pictures {
+  padding-top: 48px;
+  padding-bottom: 25px;
+  @include reset-list;
+
+  @media (min-width: $tablets) {
+    margin-left: 74px;
+  }
+}
+
+.pictures__list {
+  @include reset-list;
+  // @include container;
+}
+
+.pictures__list .pictures__item {
+  display: none;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  background: white;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+.pictures__list .flip__item‐‐active {
+  display: block;
+}
+
+.prev {
+  display: none;
+}
+
+.next {
+  display: none;
+}
