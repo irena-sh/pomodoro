@@ -16,7 +16,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "editorconfig": "editorconfig-cli",
     "build": "gulp css",
-    "start": "gulp start"
+    "start": "gulp start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     "last 2 versions",
